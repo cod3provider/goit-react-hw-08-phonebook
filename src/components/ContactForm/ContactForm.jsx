@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { nanoid } from 'nanoid';
+import toast, { Toaster } from 'react-hot-toast';
 import { getAllContacts } from '../../redux/contacts/contacts-selectors';
 
 import { fetchAddContact } from '../../redux/contacts/contacts-operations';
@@ -48,7 +49,9 @@ const ContactForm = () => {
     );
 
     isDuplicateContact
-      ? alert(`${name} is already in contacts`)
+      ? toast(`${name} is already in contacts`, {
+        icon: '❗️😬️',
+      })
       : dispatch(fetchAddContact(contact));
     reset();
   };
@@ -88,6 +91,7 @@ const ContactForm = () => {
           Add contact
         </button>
       </form>
+      <Toaster />
     </div>
   );
 };

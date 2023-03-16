@@ -18,7 +18,7 @@ const fields = {
     name: 'password',
     required: true,
     label: 'User password',
-    placeholder: 'Password',
+    placeholder: 'Password: 8 characters',
   },
 };
 
