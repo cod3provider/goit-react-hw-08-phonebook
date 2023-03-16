@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  gap: 25px;
+  margin: 0 auto;
+  background: rgba(193, 245, 183, 0.05);
+  border-radius: 10px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.button {
+  padding: 5px 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+
+  background: rgba(56, 161, 105, 0.76);
+  color: #fff;
+
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+
+.button:hover {
+  background: rgba(12, 128, 41, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}

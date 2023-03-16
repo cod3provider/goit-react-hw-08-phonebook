@@ -1,0 +1,22 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.link {
+  padding: 20px 15px;
+  font-size: 20px;
+  color: rgb(102, 102, 102);
+  border-radius: 10px  ;
+  text-decoration: none;
+  transition: color 200ms linear;
+}
+
+.link:global(.active) {
+  color: #fff;
+}
+
+.link:hover {
+  color: #28C76F;
+}

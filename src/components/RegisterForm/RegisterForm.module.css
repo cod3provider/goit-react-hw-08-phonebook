@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  gap: 25px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.button {
+  padding: 5px 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+
+  background: rgb(56,161, 105);
+  color: #fff;
+
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+
+.button:hover {
+  background: rgba(47, 133, 90);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

@@ -1,0 +1,28 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mail {
+  padding: 20px 15px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.button {
+  margin-left: 20px;
+  padding: 5px 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+
+  cursor: pointer;
+  transition: all 250ms linear;
+}
+
+.button:hover {
+  background: #a49794;
+  color: #ffffff;
+}
