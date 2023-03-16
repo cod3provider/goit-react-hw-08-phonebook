@@ -4,7 +4,7 @@
 // import { login } from '../../redux/auth/auth-operations';
 // import { Navigate } from 'react-router-dom';
 
-
+import LoginForm from '../../components/LoginForm/LoginForm';
 
 
 const LoginPage = () => {

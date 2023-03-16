@@ -9,18 +9,7 @@ import {
 const contactsSlice = createSlice({
   name: 'contacts',
   initialState: {
-    items: [
-      {
-        id: 1,
-        name: 'Peter Haffner',
-        number: '+790 123 123 123',
-      },
-      {
-        id: 2,
-        name: 'PepepePeter Geffner',
-        number: '+790 123 123 567',
-      }
-    ],
+    items: [],
     isLoading: false,
     error: null,
   },
