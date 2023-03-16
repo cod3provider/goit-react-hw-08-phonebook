@@ -3,7 +3,6 @@ import { Navigate, Outlet } from 'react-router-dom';
 
 import { getAuth } from '../../redux/auth/auth-selectors';
 
-
 const PrivateRoute = () => {
   const {isLogin, token} = useSelector(getAuth);
 

@@ -1,12 +1,14 @@
 import { useDispatch } from 'react-redux';
 
+import useForm from '../../hooks/useForm';
+
 import TextField from '../TextField/TextField';
+
 import fields from './fields';
 import initialState from './initialState';
 
-import useForm from '../../hooks/useForm';
-
 import { login } from '../../redux/auth/auth-operations';
+
 import s from './LoginForm.module.css';
 
 const LoginForm = () => {

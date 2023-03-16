@@ -1,8 +1,8 @@
 import { useDispatch } from 'react-redux';
 
-import TextField from '../TextField/TextField';
-
 import useForm from '../../hooks/useForm';
+
+import TextField from '../TextField/TextField';
 
 import fields from './fields';
 import initialState from './initialState';
